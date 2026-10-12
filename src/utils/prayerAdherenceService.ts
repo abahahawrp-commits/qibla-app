@@ -396,7 +396,7 @@ ${metricsLines}
 _Catatan Muhasabah:_
 "${summary.predicate.description}"
 
-Dibuat dengan Nurul Islam - Panduan Ibadah Harian Muslim`;
+Dibuat dengan Qiblatun - Panduan Ibadah Harian Muslim`;
   }
 }
 

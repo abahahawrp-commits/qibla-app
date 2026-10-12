@@ -36,10 +36,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </div>
               <div>
                 <span className="text-base font-bold tracking-tight text-white group-hover:text-amber-400 transition-colors whitespace-nowrap">
-                  Nurul Islam
-                </span>
-                <span className="text-[10px] text-emerald-300/70 block -mt-1 font-medium tracking-wider uppercase">
-                  by Fluttydev
+                  Qiblatun
                 </span>
               </div>
             </motion.button>

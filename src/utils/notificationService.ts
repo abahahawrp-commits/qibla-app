@@ -82,7 +82,7 @@ class NotificationService {
 
   // Send test notification to verify setup
   sendTestNotification(cityName: string): boolean {
-    const title = 'Pengingat Sholat Nurul Islam Aktif';
+    const title = 'Pengingat Sholat Qiblatun Aktif';
     const body = `Notifikasi browser berhasil diaktifkan untuk wilayah ${cityName}. Anda akan diingatkan setiap waktu sholat tiba.`;
 
     soundManager.playSuccessChime();

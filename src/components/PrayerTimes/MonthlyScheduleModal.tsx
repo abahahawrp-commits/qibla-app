@@ -131,9 +131,9 @@ export const MonthlyScheduleModal: React.FC<MonthlyScheduleModalProps> = ({
         const endMin = String(endDateObj.getMinutes()).padStart(2, '0');
         const dtEndStr = `${endY}${endM}${endD}T${endHour}${endMin}00`;
 
-        const uid = `sholat-${y}${m}${d}-${pDef.key}-${location.city.toLowerCase().replace(/\s+/g, '')}@fluttydev.com`;
+        const uid = `sholat-${y}${m}${d}-${pDef.key}-${location.city.toLowerCase().replace(/\s+/g, '')}@qiblatun.app`;
         const summary = `${pDef.title} (${pDef.arabic}) - ${location.city}`;
-        const description = `${pDef.title} untuk wilayah ${location.city}, ${location.country}.\\nWaktu: ${timeStr} (${location.timezone || 'WIB'}).\\nMetode Hisab: ${settings.method}.\\nAplikasi Nurul Islam by Fluttydev.`;
+        const description = `${pDef.title} untuk wilayah ${location.city}, ${location.country}.\\nWaktu: ${timeStr} (${location.timezone || 'WIB'}).\\nMetode Hisab: ${settings.method}.\\nAplikasi Qiblatun.`;
 
         let alarmBlock = '';
         if (alarmMinutes > 0) {
@@ -144,7 +144,7 @@ export const MonthlyScheduleModal: React.FC<MonthlyScheduleModalProps> = ({
       });
     });
 
-    const icsContent = `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Fluttydev//Nurul Islam Jadwal Sholat//ID\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:Jadwal Sholat ${monthName} - ${location.city}\r\nX-WR-TIMEZONE:${location.timezone || 'Asia/Jakarta'}\r\n${icsEvents}END:VCALENDAR\r\n`;
+    const icsContent = `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Qiblatun//Jadwal Sholat//ID\r\nCALSCALE:GREGORIAN\r\nMETHOD:PUBLISH\r\nX-WR-CALNAME:Jadwal Sholat ${monthName} - ${location.city}\r\nX-WR-TIMEZONE:${location.timezone || 'Asia/Jakarta'}\r\n${icsEvents}END:VCALENDAR\r\n`;
 
     // Trigger download
     const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
@@ -294,8 +294,6 @@ export const MonthlyScheduleModal: React.FC<MonthlyScheduleModalProps> = ({
               <CalendarPlus className="w-3.5 h-3.5" />
               <span>Ekspor Jadwal 1 Bulan ke Kalender (.ICS)</span>
             </button>
-            <span aria-hidden="true" className="text-emerald-700">·</span>
-            <span>Fluttydev Islamic Companion</span>
           </div>
         </div>
 

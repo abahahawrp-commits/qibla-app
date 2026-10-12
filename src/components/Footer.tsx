@@ -16,7 +16,7 @@ export const Footer: React.FC<FooterProps> = ({ onTabChange, onOpenSettings }) =
             <Moon className="w-3.5 h-3.5 fill-current" />
           </div>
           <span className="font-bold text-white text-sm">
-            Nurul Islam · Fluttydev
+            Qiblatun
           </span>
         </div>
 
@@ -66,8 +66,7 @@ export const Footer: React.FC<FooterProps> = ({ onTabChange, onOpenSettings }) =
         </div>
 
         <p className="text-[11px] text-emerald-400/40 pt-2 border-t border-emerald-900/40">
-          Minimal Elegant UI Concept · Dibuat dengan cinta untuk umat oleh{' '}
-          <strong className="text-emerald-200">Fluttydev</strong>
+          Minimal Elegant UI Concept · Dibuat dengan cinta untuk umat
         </p>
       </div>
     </footer>

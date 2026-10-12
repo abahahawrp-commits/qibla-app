@@ -132,7 +132,7 @@ export const PWAInstallButton: React.FC<PWAInstallButtonProps> = ({ variant = 'n
                     3
                   </span>
                   <p>
-                    Ketuk <strong>Tambah (Add)</strong> di pojok kanan atas. Ikon Nurul Islam siap digunakan secara offline.
+                    Ketuk <strong>Tambah (Add)</strong> di pojok kanan atas. Ikon Qiblatun siap digunakan secara offline.
                   </p>
                 </div>
               </div>

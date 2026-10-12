@@ -357,12 +357,12 @@ export const IslamicQuiz: React.FC<IslamicQuizProps> = ({ onBack }) => {
   // Share score
   const handleShareResult = async () => {
     if (!sessionResult) return;
-    const text = `🏆 Skor Kuis Islami Nurul Islam: ${sessionResult.score} Poin (Akurasi ${sessionResult.accuracy}%)\nTingkat: ${DIFFICULTY_LABELS[sessionResult.difficulty].name}\nAyo uji dan perkaya wawasan keislamanmu di Nurul Islam!`;
+    const text = `🏆 Skor Kuis Islami Qiblatun: ${sessionResult.score} Poin (Akurasi ${sessionResult.accuracy}%)\nTingkat: ${DIFFICULTY_LABELS[sessionResult.difficulty].name}\nAyo uji dan perkaya wawasan keislamanmu di Qiblatun!`;
 
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'Hasil Kuis Islami - Nurul Islam',
+          title: 'Hasil Kuis Islami - Qiblatun',
           text,
           url: window.location.href,
         });

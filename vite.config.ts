@@ -21,8 +21,8 @@ export default defineConfig(() => {
         ],
         manifest: {
           id: '/',
-          name: 'Nurul Islam - Jadwal Sholat, Kiblat & Quran',
-          short_name: 'Nurul Islam',
+          name: 'Qiblatun - Jadwal Sholat, Kiblat & Quran',
+          short_name: 'Qiblatun',
           description:
             'Aplikasi Islami terpadu: jadwal sholat akurat, kompas kiblat, Al-Qur’an lengkap, tasbih digital & kumpulan doa.',
           theme_color: '#071914',

@@ -1,5 +1,5 @@
 {
-  "name": "Nurul Islam - Prayer Times, Qibla & Quran by Fluttydev",
+  "name": "Qiblatun - Prayer Times, Qibla & Quran",
   "description": "Comprehensive Islamic companion featuring accurate prayer times, interactive Qibla compass, complete Quran with translations and audio, digital tasbih, daily supplications, interactive Islamic quiz, Recharts prayer adherence analytics, and complete interactive Umrah guide.",
   "requestFramePermissions": ["geolocation", "accelerometer", "gyroscope", "magnetometer", "notifications"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]

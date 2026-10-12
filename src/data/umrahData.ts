@@ -88,7 +88,7 @@ export const UMRAH_STEPS: UmrahStep[] = [
     ],
     doaIds: ['istilam', 'doa_tawaf_umum', 'doa_yamani_hajar_aswad'],
     tips: [
-      'Gunakan fitur "Counter Thawaf" pada aplikasi Nurul Islam untuk menghitung putaran agar tidak ragu atau lupa jumlah putaran.',
+      'Gunakan fitur "Counter Thawaf" pada aplikasi Qiblatun untuk menghitung putaran agar tidak ragu atau lupa jumlah putaran.',
       'Jika wudhu batal di tengah putaran thawaf, segera keluar untuk berwudhu kembali, lalu lanjutkan dari putaran yang sedang berjalan.',
     ],
     mistakesToAvoid: [
@@ -670,8 +670,8 @@ export const UMRAH_CHECKLIST_DEFAULT: UmrahChecklistItem[] = [
   },
   // Ibadah & Perlengkapan
   {
-    id: 'ibd_aplikasi_nurul_islam',
-    title: 'Aplikasi Nurul Islam (Al-Quran, Doa, Counter Thawaf)',
+    id: 'ibd_aplikasi_qiblatun',
+    title: 'Aplikasi Qiblatun (Al-Quran, Doa, Counter Thawaf)',
     category: 'ibadah',
     essential: true,
     notes: 'Sudah mendukung mode offline penuh saat di Tanah Suci.',

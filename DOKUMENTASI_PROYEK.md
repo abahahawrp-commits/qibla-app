@@ -1,6 +1,6 @@
-# 📖 Dokumentasi Lengkap Aplikasi "Nurul Islam"
+# 📖 Dokumentasi Lengkap Aplikasi "Qiblatun"
 
-> **Nurul Islam - Pendamping Ibadah Digital Terlengkap & Modern**  
+> **Qiblatun - Pendamping Ibadah Digital Terlengkap & Modern**  
 > Dibuat dengan React 19, TypeScript, Vite, Tailwind CSS v4, Recharts, Lucide Icons, dan Progressive Web App (PWA).
 
 ---
@@ -27,7 +27,7 @@
 
 ## 1. Ringkasan Proyek & Arsitektur
 
-**Nurul Islam** adalah aplikasi web progresif (*Progressive Web App*) islami yang dirancang dengan pendekatan *Mobile-First*. Aplikasi ini menyediakan berbagai instrumen ibadah harian kaum muslimin dalam satu wadah yang ringan, indah, cepat, dan dapat berjalan secara luring (*offline*).
+**Qiblatun** adalah aplikasi web progresif (*Progressive Web App*) islami yang dirancang dengan pendekatan *Mobile-First*. Aplikasi ini menyediakan berbagai instrumen ibadah harian kaum muslimin dalam satu wadah yang ringan, indah, cepat, dan dapat berjalan secara luring (*offline*).
 
 ### 🛠️ Teknologi yang Digunakan:
 - **Framework & Runtime**: React 19 + TypeScript (Strict Type Safety)
@@ -152,7 +152,7 @@
 
 ## 3. Penjelasan Struktur Direktori & File Utama
 
-Berikut adalah susunan hierarki proyek Nurul Islam:
+Berikut adalah susunan hierarki proyek Qiblatun:
 
 ```text
 ├── index.html                    # Entry point HTML utama (Title, Meta, Font, Viewport)
@@ -336,7 +336,7 @@ Aplikasi ini sudah 100% siap dikonversi ke **Android APK/AAB** dan **iOS IPA** m
    ```
 2. Inisialisasi proyek:
    ```bash
-   npx cap init "Nurul Islam" "com.nurulislam.app" --web-dir=dist
+   npx cap init "Qiblatun" "com.qiblatun.app" --web-dir=dist
    ```
 3. Bangun proyek web:
    ```bash
@@ -362,4 +362,4 @@ Aplikasi ini sudah 100% siap dikonversi ke **Android APK/AAB** dan **iOS IPA** m
 
 ---
 
-*Dokumentasi ini dibuat untuk mempermudah pemahaman arsitektur, pemeliharaan jangka panjang, dan penambahan fitur-fitur baru pada aplikasi Nurul Islam.*
+*Dokumentasi ini dibuat untuk mempermudah pemahaman arsitektur, pemeliharaan jangka panjang, dan penambahan fitur-fitur baru pada aplikasi Qiblatun.*

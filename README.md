@@ -1,4 +1,4 @@
-# 🕌 Nurul Islam - Islamic Companion App
+# 🕌 Qiblatun - Islamic Companion App
 
 > Aplikasi pendamping ibadah muslim lengkap, modern, dan ringan berbasis **React 19 + TypeScript + Vite + Tailwind CSS + PWA**.
 

@@ -10,7 +10,7 @@ const updateSW = registerSW({
     updateSW(true);
   },
   onOfflineReady() {
-    console.log('Nurul Islam PWA siap digunakan secara offline!');
+    console.log('Qiblatun PWA siap digunakan secara offline!');
   },
 });
 

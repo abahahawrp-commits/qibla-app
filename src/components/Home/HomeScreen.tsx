@@ -160,7 +160,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
               Assalamu Alaikum!
             </h1>
             <p className="text-[11px] text-emerald-200/70 font-medium">
-              Nurul Islam · Fluttydev
+              Qiblatun
             </p>
           </div>
         </div>
